@@ -9,6 +9,7 @@ Authors@R: c(
   )
 Maintainer: Bob Rudis <bob@rud.is>
 SystemRequirements: Java
+Encoding: UTF-8
 Description: By separating out 'JAR' files from 'rJava'-based packages, such packages
    can have a lighter filesystem footprint, especially when they are likely to change 
    at a more rapid pace than the underlying libraries they depend upon. Core library 
@@ -20,4 +21,4 @@ License: Apache License 2.0 | file LICENSE
 Depends:
     R (>= 3.2.0),
     rJava
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
